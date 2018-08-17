@@ -1,0 +1,7 @@
+<xml>
+    <ToUserName><![CDATA[<?=$fromUserName?>]]></ToUserName>
+    <FromUserName><![CDATA[<?=$toUserName?>]]></FromUserName>
+    <CreateTime><?=time()?></CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[<?=$detail["$content"]?>]]></Content>
+</xml>
